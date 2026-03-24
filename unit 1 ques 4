@@ -1,0 +1,19 @@
+# Create dictionary
+student = {"name": "Sanchit", "age": 18}
+
+# Access
+print("Name:", student["name"])
+
+# Update
+student["age"] = 19
+print("Updated:", student)
+
+# Remove
+student.pop("age")
+print("After removal:", student)
+
+# Merge dictionaries
+d1 = {"a": 1}
+d2 = {"b": 2}
+merged = {**d1, **d2}
+print("Merged:", merged)
